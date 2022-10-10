@@ -20,7 +20,7 @@ High scores will be recorded each time you submit your initials and scores after
 
 You may clear all high scores by clicking on the "Clear High Scores" button:
 
-![Clear High Scores button](/Assets/clear%20high%20scores.JPG)
+![Clear High Scores button](./Assets/clear-high-scores.JPG)
 
 ```
 
