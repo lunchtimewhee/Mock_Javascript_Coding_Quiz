@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Calibri','Arial','sans-serif';
+}
+
+button{
+    background-color:indigo;
+    color:white;
+    text-align:center;
+    border:0;
+    padding:0;
+    border-radius:3px;
+    padding-inline:6px;
+    padding-block:2px;
+    margin-top:5px;
+    box-sizing:content-box;
+}
+
+button:hover{
+    background-color:rgb(111, 80, 133);
+}
+
+li{
+    list-style:none;
+    text-align:left;
+}
+
+nav{
+    display: flex;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+.mcq-button{
+    justify-content:left;
+    text-align:center;
+}
+
+.left-nav{
+    flex:1 1;
+}
+
+.nav-item{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.high-score-button{
+    margin-inline:20px;
+}
+
+.LockOn {
+    display:none;
+    visibility: visible;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    vertical-align:bottom;
+    padding-top: 20%; 
+    filter: alpha(opacity=55); 
+    opacity: 1; 
+    font-size:large;
+    color:blue;
+    font-style:italic;
+    font-weight:400;
+    background-image: url("../Assets/loading.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#main-page{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:5%;
+    margin-bottom:5%;
+
+}
+
+#main-page-header{
+    margin-block:20px;
+    text-align:center;
+}
+
+
+#description-text{
+    margin-bottom:20px;
+    text-align:center;
+}
+
+
+#quiz-buttons{
+    display:none;
+    flex-direction:column;
+    padding:0;
+}
+
+#question-display{
+    display:none;
+    margin-bottom:20px;
+}
+
+
+#submit-score-form{
+    display:none;
+    align-items:baseline;
+    gap:5px;
+}
+
+#high-scores-buttons-container{
+    display:none;
+    align-items:center;
+    justify-content:center;
+    margin-top:20px;
+}
+
+#high-scores-list{
+    display:none;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding:0px;
+}
+
+#correct-incorrect{
+    margin-top:10px;
+    justify-content:left;
+    display:none;
+    border-top-color:gray;
+    border-top-style:outset;
+    color:gray;
+    border-width:2px;
+    font-style:italic;
+}
+
+#view-high-scores:hover{
+    color:gray;
+}
+

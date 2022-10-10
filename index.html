@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Mock Javascript Coding Quiz</title>
+</head>
+<body>
+    <nav>
+        <div class="left-nav">
+            <a class="nav-item" id="view-high-scores">View Highscores</a>
+        </div>
+        <div class="right-nav">
+            <a class="nav-item" id="score">Score: </a>
+            <a class="nav-item" id="time">Time Remaining: </a>
+        </div>
+    </nav>
+    <div id="main-page">
+        <h1 id="main-page-header">Coding Quiz Challenge</h1>
+        <h2 id="question-display"></h2>
+        <div id="description-text">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</div>
+        <button class="default-button" id="start-quiz-button">Start Quiz</button>
+        <ul id="quiz-buttons">
+            <li><button class="mcq-button default-button" id="mcq-button-1" data-choicenum="1">Choice 1</button></li>
+            <li><button class="mcq-button default-button" id="mcq-button-2" data-choicenum="2">Choice 2</button></li>
+            <li><button class="mcq-button default-button" id="mcq-button-3" data-choicenum="3">Choice 3</button></li>
+            <li><button class="mcq-button default-button" id="mcq-button-4" data-choicenum="4">Choice 4</button></li>
+        </ul>
+        <form id="submit-score-form">
+            Enter initials:
+            <input type="text" id="submit-score-input">
+            <button id="submit-score-button">Submit</button>
+        </form>
+        <ul id="high-scores-list"></ul>
+        <div id="high-scores-buttons-container">
+            <button class='high-score-button' id="go-back-button">Go Back</button>
+            <button class='high-score-button' id="clear-high-scores-button">Clear High Scores</button>
+        </div>
+        <div id="correct-incorrect"></div>
+        
+    </div>
+    <div id="cover-screen" class="LockOn"></div>
+
+    <script src="./Assets/script.js"></script>
+</body>
+</html>
