@@ -23,7 +23,7 @@ var correctIncorrectEl = document.getElementById('correct-incorrect');
 var viewHighScoresButton = document.getElementById('view-high-scores');
 
 //Default description text for home page.
-var defaultDescriptionText = 'Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10 seconds!';
+var defaultDescriptionText = 'Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by 10 seconds!';
 
 var highScoresList = [];
 
