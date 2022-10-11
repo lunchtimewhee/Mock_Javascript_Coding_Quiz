@@ -371,8 +371,9 @@ startQuizButton.addEventListener('click',function(){
 
 //Event listener for when a MCQ button is clicked. Adds points if correct answer, subtracts time if incorrect answer. 
 quizButtonsULEl.addEventListener('click',function(event){
+    event.stopPropagation();
     //Button clicks only work while game is ongoing
-    if(gameOngoing){
+    if(gameOngoing && event.target.classList.contains('mcq-button')){
         //If correct answer is chosen, give 1 point and upate scoreboard
         if(event.target.dataset.choicenum == currentAnswer){
             score++;
