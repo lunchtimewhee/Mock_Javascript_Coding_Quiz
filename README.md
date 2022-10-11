@@ -24,6 +24,11 @@ You may clear all high scores by clicking on the "Clear High Scores" button:
 ![](./Assets/clear-scores.jpg)
 
 
+## Link to quiz:
+```
+https://lunchtimewhee.github.io/Mock_Javascript_Coding_Quiz/
+```
+
 ## User Story
 
 ```
